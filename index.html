@@ -1,0 +1,66 @@
+<!-- Essa tag é importante para o browser entender que se trata de um documento HTML. -->
+<!DOCTYPE html>
+<html>
+  <!-- A tag head é onde vai todas as declarações do arquivo html, como o charset, título e o link para o arquivo css. -->
+  <head>
+    <meta charset="utf-8">
+    <title>Primeiro WebSite</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/meuCss.css">
+    <!-- Endereço para o arquivo JavaScript. -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </head>
+  <!-- Já a tag body vai todo o corpo do site propriamente dito, em seções como header (cabeçalho), section (seções) e footer (rodapé). -->
+  <body background="http://wallpaper-gallery.net/images/free-wallpaper-for-website-backgrounds/free-wallpaper-for-website-backgrounds-5.jpg">
+    <header>
+      <div class="container minhaClasse">
+        <h1 class="text-center">Página Bootstrap</h1>
+        <p class="text-center">Essa página é um teste para aprender o bootstrap. Não leve nada aqui a sério.</p>
+      </div>
+    </header>
+    <section class="minhaClasse2">
+      <div>
+        <form action="" method="post" class="campos">
+          <div class="form-group">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" class="form-control campos" required placeholder="Digite aqui" autofocus="auto" tabindex="1">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" name="email" class="form-control campos" required placeholder="exemplo@email.com">
+          </div>
+          <div class="form-group">
+            <label for="nascimento">Data de nascimento</label>
+            <input type="date" class="form-control campos" name="nascimento" required tabindex="2">
+          </div>
+          <div class="form-group">
+            <label for="senha">Senha</label>
+            <input type="password" class="form-control campos" name="senha" required>
+          </div>
+          <div class="form-group">
+            <button type="submit" class="btn btn-danger">SEJA HACKEADO</button>
+          </div>
+          <div class="form-group">
+           <label for="comment">Deseja deixar algum comentário? (não necessário)</label>
+           <textarea class="form-control campos" rows="5" id="comment"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="cidades">Cidades</label>
+            <select name="cidades" class="form-control campos">
+              <option value="1">Curitiba</option>
+              <option value="2" selected="selected">São Paulo</option>
+            </select>
+          </div>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <div class="meuFooter">
+        <p class="text-muted">Aurelix Software Incorporated</p>
+      </div>
+    </footer>
+  </body>
+</html>
