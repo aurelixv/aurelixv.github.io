@@ -6756,3 +6756,42 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+h1 {
+  text-align: center;
+  margin-top: 0px;
+}
+.minhaClasse {
+  padding-top:    10px;
+  padding-bottom: 10px;
+  padding-left:   10px;
+  padding-right:  10px;
+  color:          #fff;
+  background:     #000;
+  margin:         auto;
+  margin-bottom:  20px;
+  height:         auto;
+  width:          600px;
+  border-radius:  1em;
+}
+.minhaClasse2 {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 800px;
+  background: #fff;
+  border-radius: 1em;
+  margin: auto;
+  background: transparent;
+  color: white;
+}
+.campos {
+  width: 400px;
+  margin: auto;
+}
+.meuFooter {
+  background: #000;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+  margin: auto;
+  margin-top: 30px;
+}
